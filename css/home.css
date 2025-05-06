@@ -1,0 +1,55 @@
+body {
+    overflow: hidden;
+}
+h1 {
+    text-align: center;
+    background-color: rebeccapurple;
+    color: #fff;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+    border: 2px solid goldenrod;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+input[type = submit] {
+    background-color: rebeccapurple;
+    color: #fff;
+    padding: 6px 8px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 2px solid goldenrod;
+    cursor: pointer;
+    outline: none;
+}
+a {
+    outline: none;
+}
+table {
+    width: 100%;
+    font-family: sans-serif;
+    border: 1px solid goldenrod;
+}
+th {
+    border: 1px solid goldenrod;
+    background-color: rebeccapurple;
+    padding: 10px 0px;
+    color: white;
+    font-weight: normal;
+}
+td {
+    border: 1px solid goldenrod;
+    padding: 10px 0px;
+    text-align: center;
+}
+#updatelink, #deletelink {
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+    padding: 4px 8px;
+    margin: 6px 2px;
+    outline: none;
+}
+#deletelink {
+    background-color: red;
+}
